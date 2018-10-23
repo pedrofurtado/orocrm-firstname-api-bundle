@@ -1,0 +1,15 @@
+api:
+  entities:
+    Oro\Bundle\ContactBundle\Entity\Contact:
+      filters:
+        fields:
+          firstName:
+            exclude: false
+            data_type: string
+            property_path: firstName
+            description: "Filter records by 'firstName' field."
+      sorters:
+        fields:
+          firstName:
+            exclude: false
+            property_path: firstName

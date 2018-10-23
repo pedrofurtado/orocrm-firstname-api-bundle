@@ -1,0 +1,23 @@
+{
+  "name": "pedrofurtado/orocrm-firstname-api-bundle",
+  "type": "symfony-bundle",
+  "description": "Define Oro Contact 'firstName' field as filter and sorter in OroCRM JSON API.",
+  "keywords": ["orocrm", "oroplatform", "oro"],
+  "homepage": "https://github.com/pedrofurtado/orocrm-firstname-api-bundle",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Pedro Furtado",
+      "email": "pedro.felipe.furtado@usp.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "oro/crm": ">=2.6.1"
+  },
+  "autoload": {
+    "psr-4": { "OrocrmFirstnameApi\\Bundle\\": "src/OrocrmFirstnameApi/Bundle" }
+  }
+}

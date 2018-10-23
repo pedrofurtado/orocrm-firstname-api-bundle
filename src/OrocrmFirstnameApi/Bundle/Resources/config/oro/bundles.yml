@@ -1,0 +1,2 @@
+bundles:
+    - { name: OrocrmFirstnameApi\Bundle\OrocrmFirstnameApiBundle, priority: 800 }
