@@ -3,6 +3,11 @@
 ## Introduction
 Define Oro Contact 'firstName' field as filter and sorter in OroCRM REST JSON API.
 
+Originated from:
+
+https://github.com/oroinc/crm/issues/306
+https://github.com/oroinc/crm/pull/307
+
 ## Installation
 
 ```bash
